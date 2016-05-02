@@ -4,9 +4,9 @@ public class Movie {
     public static final int NEW_RELEASE = 1;
     private String title;
     private int priceCode;
-    public Movie(String newtitle, int newpriceCode) {
-        title = newtitle;
-        priceCode = newpriceCode;
+    public Movie(String name, int newpriceCode) {
+        title = name;
+        setPriceCode(newpriceCode);
     }
     public int getPriceCode() {
         return priceCode;
