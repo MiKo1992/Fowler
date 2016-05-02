@@ -1,7 +1,7 @@
 /**
  * Created by mikok on 02.05.2016.
  */
-public class NewReleasePrice {
+public class NewReleasePrice extends Price {
     int getPriceCode(){
         return Movie.NEW_RELEASE;
     }
